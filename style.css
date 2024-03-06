@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+html {
+    overflow: auto;
+    font-size: 12px;
+}
+
+#pricing-table {
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.price-card {
+    max-width: 295px;
+    height: 600px;
+    background-color: #fcfffc;
+    border-radius: 15px;
+    margin: 1.5%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    text-align: center;
+    box-shadow: 0 0 9px #999;
+}
+
+.plan-title {
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    padding: 1%;
+    color: white;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    line-height: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+#red-title, #red-button {
+    background: linear-gradient(155deg, #fcff9e -35%, #d53369 100%);
+}
+
+#blue-title, #blue-button {
+    background: linear-gradient(125deg, #00d2ff -35%, #000851 100%);
+}
+
+#green-title, #green-button {
+    background: linear-gradient(150deg, #92FE9D -100%, #2485bb 100%);
+}
+
+.plan-title h3 {
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    margin-bottom: -3%;
+}
+
+.plan-title hr {
+    background-color: white;
+    border: 1px solid white;
+    width: 85%;
+}
+
+.plan-title p {
+    width: 85%;
+    font-size: 0.9rem;
+}
+
+.plan-details {
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2%;
+}
+
+.card-price-container > img {
+    width: 100%;
+}
+
+.plan-details hr {
+    width: 35%;
+    border: 2px solid lightgray;
+    border-radius: 2% 2% / 50% 50%;
+    margin-top: -5%;
+}
+
+.plan-details ul {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.plan-details li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.plan-details li div {
+    width: 8%;
+}
+
+.check-container img {
+    width: 100%;
+}
+
+.plan-details li p {
+    width: 80%;
+    font-size: 0.9rem;
+    text-align: start;
+}
+
+.plan-details button {
+    height: 9%;
+    width: 35%;
+    border-radius: 15%/ 40%;
+    border: none;
+    margin-bottom: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 1px;
+    box-shadow: 2px 3px 3px #999;
+}
